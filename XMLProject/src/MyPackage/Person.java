@@ -8,6 +8,15 @@ public class Person {
 	private boolean hasOscar;
 	private boolean hasGoldenGlobe;
 
+	public Person(String firstName, String lastName, Gender gender, boolean hasOscar, boolean hasGoldenGlobe) {
+
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.gender = gender;
+		this.hasOscar = hasOscar;
+		this.hasGoldenGlobe = hasGoldenGlobe;
+	}
+
 	public String getFirstName() {
 		return firstName;
 	}

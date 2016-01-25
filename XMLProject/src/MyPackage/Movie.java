@@ -1,6 +1,6 @@
 package MyPackage;
 
-import java.util.ArrayList;
+import java.util.List;
 
 public class Movie {
 
@@ -8,7 +8,15 @@ public class Movie {
 	private Genre genre;
 	private long duration = 154;
 	private double rate = 5.4;
-	private ArrayList<Person> cast;
+	private List<Person> cast;
+
+	public Movie(String title, Genre genre, long duration, double rate, List<Person> cast) {
+		this.title = title;
+		this.genre = genre;
+		this.duration = duration;
+		this.rate = rate;
+		this.cast = cast;
+	}
 
 	public static void main(String[] args) {
 	}
@@ -45,11 +53,11 @@ public class Movie {
 		this.rate = rate;
 	}
 
-	public ArrayList<Person> getCast() {
+	public List<Person> getCast() {
 		return cast;
 	}
 
-	public void setCast(ArrayList<Person> cast) {
+	public void setCast(List<Person> cast) {
 		this.cast = cast;
 	}
 

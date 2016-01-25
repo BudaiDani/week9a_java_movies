@@ -1,5 +1,5 @@
 package MyPackage;
 
 public enum Genre {
-	MALE, FEMALE
+	ACTION, THRILLER, HORROR, SCI_FI, ROMANTIC, COMEDY, DRAMA
 }
