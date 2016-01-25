@@ -8,10 +8,10 @@ import java.io.IOException;
 public class MovieManager {
 
 	public static final String FILE_PATH = "c:\\movies.xml";
-	public static void main(String[] args) {
 
-		//actors
+	public static void main(String[] args) {
 		
+
 	try
 	{
 		BufferedWriter bw = new BufferedWriter(new FileWriter(new File(FILE_PATH)));
